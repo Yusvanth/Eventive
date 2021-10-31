@@ -1,0 +1,93 @@
+html,body{
+    background-color:white;
+    color:#e6e9f0;
+    text-rendering: optimizeLegibility;
+    font-family: 'Montserrat';
+    position: relative;
+    list-style: none;
+    
+        margin: 0px;
+        padding: 0px;
+    
+}
+h2{
+    font-family: "Times New Roman", Times, serif;
+    
+}
+p{
+    color: black;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+button{
+    text-align: center;
+}
+#first{
+    font-size: larger;
+    color: white;
+}
+
+
+.card{
+    background-color:gainsboro;
+    
+    
+    
+    height: fit-content;
+   margin-left: 0px;
+   margin-right: auto;
+}
+
+.card-header{
+    background-color:gainsboro;
+    
+   
+   display: block;
+   position: relative;
+   height: fit-content;
+   margin-left: 10px;
+   margin-right: auto;
+}
+.btn{
+    text-decoration: none;
+    position:relative;
+    display: block;
+    text-align: center;
+   width: 100%;
+    height:fit-content;
+    color: white;
+    
+    background-color:#e6e9f0;
+    flex-direction: column;
+}
+div{
+    font-size: 25px;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    text-indent: 0px;
+}
+.btn-link{
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    text-decoration: none;
+    
+}
+
+header{
+    margin:0 auto;
+    
+   height: 50vh;
+    
+    background-color: black;
+    background-repeat: no-repeat;
+   list-style: none;
+    background-position: center;
+    text-decoration: none;
+    position: relative;
+    padding:0px;
+}

@@ -1,0 +1,295 @@
+
+html,body{
+    background-color: #fff;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    font-family: 'Montserrat';
+    position: relative;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.dropdown-submenu{
+    padding: 10px;
+
+}
+.dropdown-toggle:hover{
+    background-color: black;
+}
+.navbar{
+    color: black;
+    font-weight: bolder;
+    font-size: 130%;
+    background-color: transparent;
+    right: 30%;
+    border-bottom: none;
+}
+.navbartemp{
+    background-color: transparent;
+}
+#first{
+    font-size: larger;
+}
+
+h1{
+    font-size: 400%;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.nav{
+    margin-left: 1%;
+    padding: 0%;
+    list-style: none;
+    font-weight: bolder;
+    float: left;
+    margin-top: 20px;
+    flex-direction: row;
+}
+.nav li{
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+.nav li a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.bars:hover{
+    background-color: black;
+}
+
+.dropdown:hover{
+    background-color: transparent;
+}
+.nav li a:visited{
+    color: black;
+    font-weight: bolder;
+}
+
+#imgone{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0%;
+}
+
+.carousal-item{
+    display: inline;
+    position:absolute;
+}
+#sspics{
+    width: 833px;
+    height: 492px;
+    position: relative;
+    left: 541px;
+    top: 286px;
+    border-radius: 2%;
+}
+.container{
+    height: 100px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 350px;
+}
+.item .imgs{
+    width: 100%;
+    height: auto;
+}
+
+.second{
+    top: 200px;
+    position: relative;
+}
+
+.carousel-caption{
+    left: 50%;
+    color: black;
+    font-size:xx-large;
+    font-weight: bolder;
+    font-family: fantasy;
+    
+}
+#imgtwo{
+    top: 8%;
+}
+#imgthree{
+    top: 22%;
+    left: 0%;
+    right: 44%;
+}
+#imgfour{
+    top: 10%;
+    left: 5%;
+    color: black;
+    right: 40%;
+}
+
+#imgfive{
+    top: 14%;
+    left: 75%;
+    color: black;
+    right: 3%;
+}
+body{
+    display: block;
+}
+.pageone{
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.pagetwo{
+    top: 500px;
+    display: block;
+    position: relative;
+}
+
+.btnlogin{
+    top: 8%;
+    position: absolute;
+    float: right;
+    right: 7%;
+    background-color:transparent;
+    outline: black;
+    color: black;
+    size: inherit;
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+}
+.btnlogin:hover{
+    background-color: black;
+    color: white;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 10%;
+    right: 15px;
+    border: 3px solid black;
+    z-index: 9;
+  }
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgb(192, 187, 187);
+  }
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  .form-container .cancel {
+    background-color: red;
+  }
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+
+
+.btnlogin{
+    top: 8%;
+    position: absolute;
+    float: right;
+    right: 7%;
+    background-color:transparent;
+    outline: black;
+    color: black;
+    size: inherit;
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+}
+.btnlogin:hover{
+    background-color: black;
+    color: white;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 10%;
+    right: 15px;
+    border: 3px solid black;
+    z-index: 9;
+  }
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgb(192, 187, 187);
+  }
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  .form-container .cancel {
+    background-color: red;
+  }
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+.bars{
+    top: 20px;
+
+}
+.bars:hover{
+    background-color: transparent;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+#con:hover{
+    color: white;
+}
+p:hover{
+    color: white;
+}
+.test{
+    width:max-content;
+}
+.test:hover{
+    background-color: rgb(243, 242, 242);
+}

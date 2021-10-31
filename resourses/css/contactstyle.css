@@ -1,0 +1,73 @@
+body{
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    left: 19%;
+    top: 25px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color: white;
+  }
+  
+.name{
+    display: inline-block;
+    padding-left: 20%;
+}
+.rno{
+    padding-left: 10%;
+    display: inline-block;
+}
+.degree{
+    padding-left: 20%;
+    display: inline-block;
+}
+.yr{
+    padding-left: 10%;
+    display: inline-block;
+}
+.branch{
+    padding-left: 20%;
+    display: inline-block;
+}
+.section{
+    padding-left: 10%;
+    display: inline-block;
+}
+.feedback{
+    position: relative;
+    left: 20%;
+}
+#subject{
+    top: 10px;
+    position: relative;
+    margin: auto;
+    width: 45%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
